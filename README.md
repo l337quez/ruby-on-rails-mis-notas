@@ -131,7 +131,22 @@ Para levantar las tablas debemos correr las migraciones
 rake db:migrate
 ```
 
+Como ejecutar un rollback
+```
+rake db:rollback
+```
+
 </br>
+
+**Consola de Rails**
+Esta interesante, aqui podremos hacer varias cosas, por ejemplo queremos sabe la query para traernos todos los articulos de la tabla articulos, como por dar un ejemplo
+```
+rake console
+```
+```
+Article.all
+```
+eso devolvera todos los articulos
 
 </br>
 
