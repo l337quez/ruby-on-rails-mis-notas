@@ -94,8 +94,23 @@ rails server
 
  <a name="controller"></a>
 ### **Como crear un Controlador**
+Si deseamos crear un metodolo hacemos como se muestra en el comando, esto es opcional
+```
+rails generate controller name_controller name_method  
+```
 
+</br>
 
+ <a name="model"></a>
+### **Como crear un MOdelo**
+Es importante crear el modelo con nombre singular y en ingles
+```
+rails generate model name_model  
+```
+
+</br>
+
+</br>
 
 </br>
 
