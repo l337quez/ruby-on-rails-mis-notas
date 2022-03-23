@@ -126,6 +126,11 @@ Para crear la base de datos ejecutamos
 rake db:create
 ```
 
+Para levantar las tablas debemos correr las migraciones
+```
+rake db:migrate
+```
+
 </br>
 
 </br>
