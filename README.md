@@ -102,10 +102,15 @@ rails generate controller name_controller name_method
 </br>
 
  <a name="model"></a>
-### **Como crear un MOdelo**
+### **Como crear un Modelo**
 Es importante crear el modelo con nombre singular y en ingles
 ```
 rails generate model name_model  
+```
+
+Pero tenemos la opcion de crear el modelo en el mismo comando, si no se pone el tipo de datos rails asume que es char
+```
+rails generate model name_model  title body:text visits_count:integer
 ```
 
 </br>
