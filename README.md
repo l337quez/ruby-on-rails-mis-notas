@@ -1,8 +1,20 @@
-# ruby-on-rails-mis-notasgem install rails
+# Ruby-on-rails-mis-notasgem install rails
+
+ <br/>
+ 
+### Índice 
+* [Instalar Ruby on Rails en ARCH](#install_ruby_on_rails)
+* [Como crear un controlador](#controller)
+
+
+ <br/>
+ 
+ 
 
 
 </br>
 
+ <a name="install_ruby_on_rails"></a>
 ### **Como instalar Ruby on Rails en Linux ARCH**
 Para instalar ruby on rails necesitamos como dependencias, instalar ruby y rvm. Pero para instalar rvm necesitamos instalar curl
 ```
