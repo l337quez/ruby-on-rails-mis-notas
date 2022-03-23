@@ -1,5 +1,5 @@
 # Ruby-on-rails-mis-notasgem install rails
-
+Documentacion Oficial https://rubyonrails.org/
  <br/>
  
 ### Índice 
@@ -80,7 +80,10 @@ rvm use 3.0
 
  <a name="init_project"></a>
 ### **Iniciar Proyecto**
-Para crear un proyecto, hacemos uso del comando rails, en este framewor usaremos rails para muchas cosas,  tipeamos el siguiente comando para crear el proyecto
+Para crear un proyecto, hacemos uso del comando rails, en este framewor usaremos rails para muchas cosas,  tipeamos el siguiente comando para crear el proyecto. Tambien es importante saber que Rails usa por defecto sqlite3. En rby no hay package.json esta el gemfile o archivo de gemas, donde estan las librerias instaladas en el proyecto.  
+
+Rails crear 3 entornos de base de datos o mejor dicho 3 bases de datos para cada entorno. la db develoment que es para desarrollo, la db testing que es para pruebas y la db production, que es para produccion
+
 ```
 rails new nombre_del_proyecto   
 ```
@@ -88,6 +91,11 @@ rails new nombre_del_proyecto
 Para correr el servidor, podemos tiperar server o s
 ```
 rails server  
+```
+
+Si queremos instalar una nueva gema, agregamos la gema al gemfile y para instalar copiamos este comando
+```
+bundle inestall
 ```
 </br>
 
@@ -103,7 +111,7 @@ rails generate controller name_controller name_method
 
  <a name="model"></a>
 ### **Como crear un Modelo**
-Es importante crear el modelo con nombre singular y en ingles
+Es importante crear el modelo con nombre singular, primera letra en mayuscula y el nombre en ingles
 ```
 rails generate model name_model  
 ```
@@ -111,6 +119,11 @@ rails generate model name_model
 Pero tenemos la opcion de crear el modelo en el mismo comando, si no se pone el tipo de datos rails asume que es char
 ```
 rails generate model name_model  title body:text visits_count:integer
+```
+
+Para crear la base de datos ejecutamos
+```
+rake db:create
 ```
 
 </br>
