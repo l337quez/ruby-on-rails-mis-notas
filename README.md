@@ -4,6 +4,7 @@
  
 ### Índice 
 * [Instalar Ruby on Rails en ARCH](#install_ruby_on_rails)
+* [Iniciar proyecto](#init_project)
 * [Como crear un controlador](#controller)
 
 
@@ -74,6 +75,27 @@ Hacemos algo muy importante, poner la version de ruby por defecto
 ```
 rvm use 3.0    
 ```
+
+</br>
+
+ <a name="init_project"></a>
+### **Iniciar Proyecto**
+Para crear un proyecto, hacemos uso del comando rails, en este framewor usaremos rails para muchas cosas,  tipeamos el siguiente comando para crear el proyecto
+```
+rails new nombre_del_proyecto   
+```
+
+Para correr el servidor, podemos tiperar server o s
+```
+rails server  
+```
+</br>
+
+
+ <a name="controller"></a>
+### **Como crear un Controlador**
+
+
 
 </br>
 
