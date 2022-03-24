@@ -117,8 +117,12 @@ rails generate controller name_controller name_method
 
  <a name="model"></a>
 ### **Las Rutas**
-Tenemos un archivo dentro config >> rutas
-cada vez que generamos un controlador se crea una ruta y una vista para esa ruta
+Tenemos un archivo dentro config >> routes
+cada vez que generamos un controlador se crea una ruta y una vista para esa ruta. a cada ruta le antecede el verbo HTTP que se relaciona con esa ruta.  
+Ejemplo:  
+get 'home/index'  
+a esta ruta le antece el verbo HTTP GET, asi que es para obtener datos
+
 </br>
 
  <a name="model"></a>
