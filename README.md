@@ -4,6 +4,7 @@ Documentacion Oficial https://rubyonrails.org/
  
 ### Índice 
 * [Instalar Ruby on Rails en ARCH](#install_ruby_on_rails)
+* [Que es Ruby on Rails](#que_es_ruby_on_rails)
 * [Iniciar proyecto](#init_project)
 * [Como crear un controlador](#controller)
 
@@ -78,7 +79,7 @@ rvm use 3.0
 
 </br>
 
- <a name="init_project"></a>
+ <a name="que_es_ruby_on_rails"></a>
 ### **Que es Ruby on rails**
 Es un framework de Ruby para crear sistemas web, de tipo rest Full, estoy quiere decir que podemos hacer backend y Frontend al mismo tiempo, muy parecido como PHP (LARAVEL) y PYTHON (DJANGO)
 </br>
@@ -116,7 +117,8 @@ rails generate controller name_controller name_method
 
  <a name="model"></a>
 ### **Las Rutas**
-
+Tenemos un archivo dentro config >> rutas
+cada vez que generamos un controlador se crea una ruta y una vista para esa ruta
 </br>
 
  <a name="model"></a>
