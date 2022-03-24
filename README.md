@@ -79,6 +79,11 @@ rvm use 3.0
 </br>
 
  <a name="init_project"></a>
+### **Que es Ruby on rails**
+Es un framework de Ruby para crear sistemas web, de tipo rest Full, estoy quiere decir que podemos hacer backend y Frontend al mismo tiempo, muy parecido como PHP (LARAVEL) y PYTHON (DJANGO)
+</br>
+
+ <a name="init_project"></a>
 ### **Iniciar Proyecto**
 Para crear un proyecto, hacemos uso del comando rails, en este framewor usaremos rails para muchas cosas,  tipeamos el siguiente comando para crear el proyecto. Tambien es importante saber que Rails usa por defecto sqlite3. En rby no hay package.json esta el gemfile o archivo de gemas, donde estan las librerias instaladas en el proyecto.  
 
@@ -102,10 +107,15 @@ bundle inestall
 
  <a name="controller"></a>
 ### **Como crear un Controlador**
-Si deseamos crear un metodolo hacemos como se muestra en el comando, esto es opcional
+Si deseamos crear un metodolo  (index) hacemos como se muestra en el comando, esto es opcional. La primera le tra del nombre del controlador en Mayuscula
 ```
 rails generate controller name_controller name_method  
 ```
+
+</br>
+
+ <a name="model"></a>
+### **Las Rutas**
 
 </br>
 
